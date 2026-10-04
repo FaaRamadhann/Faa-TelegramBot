@@ -1,0 +1,18 @@
+{
+  "name": "faa-telegram-bot",
+  "version": "1.0.0",
+  "description": "Faa Ramadhan Telegram Bot (polling, tanpa pairing)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/test-all.js"
+  },
+  "keywords": [],
+  "author": "Faa Ramadhan",
+  "license": "GPL-3.0-only",
+  "type": "commonjs",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "sharp": "^0.35.5"
+  }
+}
