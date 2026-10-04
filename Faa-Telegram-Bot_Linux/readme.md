@@ -1,6 +1,6 @@
 # Faa-Telegram-Bot (Linux) — Panduan Lengkap
 
-Bot Telegram serba-bisa: sticker tools, downloader, AI, game, grup tools.
+Bot Telegram all-in-one: sticker tools, downloader, AI, game, grup tools.
 Tanpa QR, tanpa pairing, tanpa browser — cukup token dari `@BotFather`.
 
 ## 1. Install otomatis

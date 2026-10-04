@@ -1,6 +1,6 @@
 # Faa-Telegram-Bot
 
-Bot Telegram serba-bisa (polling, tanpa QR/pairing/browser):
+Bot Telegram all-in-one (polling, tanpa QR/pairing/browser):
 sticker tools, downloader (YT/TikTok/IG/FB), AI multi-provider
 (OpenRouter/Google/OpenAI), game, grup tools, translate, utilitas.
 
