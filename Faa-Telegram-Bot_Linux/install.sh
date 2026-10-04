@@ -21,8 +21,16 @@ fi
 echo "==> Paket: $PM"
 
 if [ "$PM" = "apt" ]; then
-    sudo apt-get update
-    sudo apt-get install -y nodejs npm python3 python3-pip ffmpeg
+    if [ "$(id -u)" -eq 0 ]; then
+        SUDO=""
+    elif has_cmd sudo; then
+        SUDO="sudo"
+    else
+        echo "Butuh root/sudo untuk apt. Jalankan sebagai root."
+        exit 1
+    fi
+    $SUDO apt-get update
+    $SUDO apt-get install -y nodejs npm python3 python3-pip ffmpeg
 else
     pkg update -y
     pkg install -y nodejs python ffmpeg
